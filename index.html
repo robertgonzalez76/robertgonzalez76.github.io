@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alex Rivera — IT Graduate Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header>
+    <img src="images/profile.svg" alt="Alex Rivera" class="profile-photo" />
+    <h1>Alex Rivera</h1>
+    <p class="tagline">B.S. Information Technology &nbsp;|&nbsp; Class of 2025</p>
+    <div class="contact-bar">
+      <a href="mailto:alex.rivera.it@email.com">&#9993;&nbsp; alex.rivera.it@email.com</a>
+      <a href="tel:+15551234567">&#9742;&nbsp; (555) 123-4567</a>
+      <a href="https://linkedin.com/in/alex-rivera-it" target="_blank">
+        <img src="images/linkedin-icon.svg" alt="LinkedIn" /> linkedin.com/in/alex-rivera-it
+      </a>
+      <a href="https://github.com/alexrivera-it" target="_blank">
+        <img src="images/github-icon.svg" alt="GitHub" /> github.com/alexrivera-it
+      </a>
+    </div>
+  </header>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+    </ul>
+  </nav>
+
+  <!-- ===== MAIN CONTENT ===== -->
+  <main>
+
+    <!-- About -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I am a recent graduate with a Bachelor of Science in Information Technology from
+        Lakeview State University. My coursework and hands-on projects have given me a solid
+        foundation in network administration, web development, database management, and
+        cybersecurity fundamentals. I am eager to join a dynamic team where I can apply my
+        technical skills, continue learning, and contribute to meaningful technology solutions.
+        I thrive in collaborative environments and take pride in writing clean, well-documented
+        code and maintaining reliable systems.
+      </p>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Technical Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-name">Python</div>
+          <div class="skill-bar"><div class="skill-bar-fill" style="width:80%"></div></div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-name">JavaScript / HTML / CSS</div>
+          <div class="skill-bar"><div class="skill-bar-fill" style="width:75%"></div></div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-name">SQL / MySQL</div>
+          <div class="skill-bar"><div class="skill-bar-fill" style="width:70%"></div></div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-name">Linux / Bash</div>
+          <div class="skill-bar"><div class="skill-bar-fill" style="width:65%"></div></div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-name">Networking (TCP/IP)</div>
+          <div class="skill-bar"><div class="skill-bar-fill" style="width:70%"></div></div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-name">Cloud — AWS Fundamentals</div>
+          <div class="skill-bar"><div class="skill-bar-fill" style="width:55%"></div></div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-name">Cybersecurity Basics</div>
+          <div class="skill-bar"><div class="skill-bar-fill" style="width:60%"></div></div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-name">Git / Version Control</div>
+          <div class="skill-bar"><div class="skill-bar-fill" style="width:75%"></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience">
+      <h2>Experience</h2>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-body">
+          <h3>IT Help Desk Intern — Meridian Financial Services</h3>
+          <div class="meta">May 2024 – Aug 2024 &nbsp;|&nbsp; Columbus, OH</div>
+          <ul>
+            <li>Responded to 20+ daily support tickets covering hardware, software, and network issues.</li>
+            <li>Assisted in onboarding 30 new employees by configuring workstations and accounts.</li>
+            <li>Wrote internal knowledge-base articles that reduced repeat tickets by 18%.</li>
+            <li>Shadowed network engineers during VLAN reconfiguration of the main office floor.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-body">
+          <h3>Student Lab Assistant — Lakeview State University</h3>
+          <div class="meta">Sep 2023 – May 2024 &nbsp;|&nbsp; Lakeview, OH</div>
+          <ul>
+            <li>Maintained and imaged 60 computers in the Computer Science lab each semester.</li>
+            <li>Tutored peers in introductory programming (Python) and database courses.</li>
+            <li>Documented lab equipment inventory and created a simple asset-tracking spreadsheet system.</li>
+          </ul>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <h3>Personal Budget Tracker</h3>
+          <p>A Python + SQLite web application that lets users log income and expenses,
+             generate monthly summaries, and visualize spending trends with Chart.js.</p>
+          <div class="tag-list">
+            <span class="tag">Python</span>
+            <span class="tag">Flask</span>
+            <span class="tag">SQLite</span>
+            <span class="tag">Chart.js</span>
+          </div>
+          <a class="project-link" href="https://github.com/alexrivera-it/budget-tracker" target="_blank">View on GitHub &rarr;</a>
+        </div>
+
+        <div class="project-card">
+          <h3>Campus Network Simulation</h3>
+          <p>Designed and simulated a multi-VLAN campus network topology using Cisco Packet
+             Tracer, including OSPF routing, DHCP, and ACL-based security policies.</p>
+          <div class="tag-list">
+            <span class="tag">Networking</span>
+            <span class="tag">Packet Tracer</span>
+            <span class="tag">OSPF</span>
+            <span class="tag">VLAN</span>
+          </div>
+          <a class="project-link" href="https://github.com/alexrivera-it/campus-network" target="_blank">View on GitHub &rarr;</a>
+        </div>
+
+        <div class="project-card">
+          <h3>Secure Password Manager</h3>
+          <p>A command-line Python tool that stores and retrieves encrypted credentials
+             using the cryptography library with AES-256 and a master-password-derived key.</p>
+          <div class="tag-list">
+            <span class="tag">Python</span>
+            <span class="tag">AES-256</span>
+            <span class="tag">CLI</span>
+            <span class="tag">Security</span>
+          </div>
+          <a class="project-link" href="https://github.com/alexrivera-it/password-manager" target="_blank">View on GitHub &rarr;</a>
+        </div>
+
+        <div class="project-card">
+          <h3>This Portfolio Website</h3>
+          <p>A fully static, responsive portfolio site built with HTML5 and CSS3 — no
+             frameworks — and deployed for free using GitHub Pages.</p>
+          <div class="tag-list">
+            <span class="tag">HTML5</span>
+            <span class="tag">CSS3</span>
+            <span class="tag">GitHub Pages</span>
+          </div>
+          <a class="project-link" href="https://github.com/alexrivera-it/alexrivera-it.github.io" target="_blank">View on GitHub &rarr;</a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education">
+      <h2>Education</h2>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-body">
+          <h3>B.S. Information Technology — Lakeview State University</h3>
+          <div class="meta">Graduated May 2025 &nbsp;|&nbsp; GPA: 3.6 / 4.0 &nbsp;|&nbsp; Dean's List (4 semesters)</div>
+          <ul>
+            <li>Concentration: Network Systems &amp; Security</li>
+            <li>Relevant coursework: Network Administration, Database Systems, Web Development,
+                Cybersecurity Fundamentals, Cloud Computing, Operating Systems, Software Engineering</li>
+            <li>Senior Capstone: Designed and deployed a containerized Flask web application on AWS EC2
+                with automated nightly backups to S3.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications -->
+    <section id="certifications">
+      <h2>Certifications</h2>
+      <ul class="cert-list">
+        <li>
+          <div class="cert-name">CompTIA A+</div>
+          <div class="cert-issuer">CompTIA &mdash; 2024</div>
+        </li>
+        <li>
+          <div class="cert-name">CompTIA Network+</div>
+          <div class="cert-issuer">CompTIA &mdash; 2024</div>
+        </li>
+        <li>
+          <div class="cert-name">AWS Cloud Practitioner</div>
+          <div class="cert-issuer">Amazon Web Services &mdash; 2025</div>
+        </li>
+        <li>
+          <div class="cert-name">Google IT Support Certificate</div>
+          <div class="cert-issuer">Coursera / Google &mdash; 2023</div>
+        </li>
+      </ul>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <p>&copy; 2025 Alex Rivera &nbsp;&mdash;&nbsp; Built with HTML &amp; CSS &nbsp;&mdash;&nbsp;
+       Hosted on <a href="https://pages.github.com" target="_blank">GitHub Pages</a></p>
+  </footer>
+
+</body>
+</html>

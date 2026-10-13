@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <defs>
+    <clipPath id="circle">
+      <circle cx="100" cy="100" r="100"/>
+    </clipPath>
+  </defs>
+  <!-- Background -->
+  <circle cx="100" cy="100" r="100" fill="#dbeafe"/>
+  <!-- Body -->
+  <ellipse cx="100" cy="170" rx="60" ry="40" fill="#1d4ed8"/>
+  <!-- Collar / shirt detail -->
+  <polygon points="85,145 100,160 115,145 110,135 90,135" fill="#fff"/>
+  <polygon points="90,135 100,155 100,135" fill="#1d4ed8"/>
+  <!-- Head -->
+  <circle cx="100" cy="100" r="38" fill="#f5c6a0"/>
+  <!-- Hair -->
+  <ellipse cx="100" cy="68" rx="38" ry="18" fill="#3b2a1a"/>
+  <rect x="62" y="68" width="76" height="12" fill="#3b2a1a"/>
+  <!-- Eyes -->
+  <circle cx="87" cy="100" r="4.5" fill="#fff"/>
+  <circle cx="113" cy="100" r="4.5" fill="#fff"/>
+  <circle cx="88" cy="101" r="2.5" fill="#3b2a1a"/>
+  <circle cx="114" cy="101" r="2.5" fill="#3b2a1a"/>
+  <!-- Smile -->
+  <path d="M 88 115 Q 100 125 112 115" stroke="#c27b5a" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+</svg>
